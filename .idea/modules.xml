@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.iml" filepath="$PROJECT_DIR$/ArrayDemo/ArrayDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array_demo/array_demo.iml" filepath="$PROJECT_DIR$/array_demo/array_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learning.iml" filepath="$PROJECT_DIR$/.idea/java-learning.iml" />
     </modules>
   </component>
