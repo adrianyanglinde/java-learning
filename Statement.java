@@ -11,31 +11,31 @@ public class Statement {
          * case穿透
          * 38.春夏秋冬
          */
-        System.out.println("------------");
-        Scanner sc = new Scanner(System.in);
+        system_demo.out.println("------------");
+        Scanner sc = new Scanner(system_demo.in);
 
         int month = sc.nextInt();
         switch (month) {
             case 1:
-                System.out.println("春"); // 没有break 继续向下执行，直到遇到break
+                system_demo.out.println("春"); // 没有break 继续向下执行，直到遇到break
             case 2:
             case 12:
-                System.out.println("春");
+                system_demo.out.println("春");
                 break;
             case 3:
             case 4:
             case 5:
-                System.out.println("夏");
+                system_demo.out.println("夏");
                 break;
             default:
-                System.out.println("无");
+                system_demo.out.println("无");
 
         }
 
         /**
          * 43.水仙花
          */
-        System.out.println("------------");
+        system_demo.out.println("------------");
 
         for (int i = 100; i <= 999; i++) {
             int b = i / 100;
@@ -43,14 +43,14 @@ public class Statement {
             int g = (i % 10) / 1;
             int sss = (b * b * b) + (s * s * s) + (g * g * g);
             if (sss == i) {
-                System.out.println(i);
+                system_demo.out.println(i);
             }
         }
 
         /**
          * 46.珠穆朗玛峰
          */
-        System.out.println("------------");
+        system_demo.out.println("------------");
 
         int zhu = 8844430;
         double zhi = 0.1;
@@ -59,14 +59,14 @@ public class Statement {
             zhi = zhi * 2;
             times++;
         }
-        System.out.println(times);
+        system_demo.out.println(times);
 
         /**
          * 47.do...while
          */
         int count = 1;
         do {
-            System.out.println("do while");
+            system_demo.out.println("do while");
             count++;
         } while (count <= 5);
 
@@ -80,7 +80,7 @@ public class Statement {
             if (i == 20) {
                 break;
             }
-            System.out.println("第" + i + "天去上班");
+            system_demo.out.println("第" + i + "天去上班");
         }
 
         /**
@@ -89,30 +89,30 @@ public class Statement {
         Random r = new Random();
         for (int i = 0; i < 10; i++) {
             int number = r.nextInt(10) + 1;
-            System.out.println(number);
+            system_demo.out.println(number);
         }
 
         /**
          * 52.猜数字
          */
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(system_demo.in);
         Random random = new Random();
         int random_number = random.nextInt(10) + 1;
         int counts = 1;
         do {
             counts++;
-            System.out.println("请输入数字");
+            system_demo.out.println("请输入数字");
             int input_number = scanner.nextInt();
             if (input_number < random_number) {
-                System.out.println("太小");
+                system_demo.out.println("太小");
                 continue;
             }
             if (input_number > random_number) {
-                System.out.println("太大");
+                system_demo.out.println("太大");
                 continue;
             }
             if (input_number == random_number) {
-                System.out.println("congratulation");
+                system_demo.out.println("congratulation");
                 break;
             }
         } while (counts <= 10);

@@ -15,6 +15,6 @@ package com.itheima;
  */
 public class Hellopackage {
     public static void main(String[] args) {
-        System.out.println("Hellopackage");
+        system_demo.out.println("Hellopackage");
     }
 }
