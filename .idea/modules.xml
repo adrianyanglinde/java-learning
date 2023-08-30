@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.iml" filepath="$PROJECT_DIR$/ArrayDemo/ArrayDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arg_demo/arg_demo.iml" filepath="$PROJECT_DIR$/arg_demo/arg_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/array_demo/array_demo.iml" filepath="$PROJECT_DIR$/array_demo/array_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection_demo/collection_demo.iml" filepath="$PROJECT_DIR$/collection_demo/collection_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-learning.iml" filepath="$PROJECT_DIR$/.idea/java-learning.iml" />
     </modules>
   </component>
