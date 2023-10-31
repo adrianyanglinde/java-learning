@@ -1,4 +1,4 @@
-package student_manage;
+package student;
 
 public class Student {
     private String sid;
