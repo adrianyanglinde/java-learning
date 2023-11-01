@@ -15,9 +15,9 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        linkedList();
+        enhanceFor();
     }
-    public static void common() {
+    public static void list() {
         List<String> co = new ArrayList<String>();
         co.add("hello");
         co.add("world");
@@ -105,7 +105,7 @@ public class Test {
 //        }
         while (lit.hasNext()){
             String str = lit.next();
-            if(str.equals("world")){
+            if(str == "world"){
                 // 通过ListIterator来添加
                 lit.add("javaEE");
             }

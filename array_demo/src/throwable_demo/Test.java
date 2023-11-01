@@ -28,6 +28,7 @@ public class Test {
 //        Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 //        at throwable_demo.Test.main(Test.java:23)
         System.out.println("开始");
+        method4();
         try{
             method5();
         }catch (ParseException e){
@@ -35,11 +36,11 @@ public class Test {
         }
         System.out.println("结束");
 
-        try {
-            method6(-5);
-        } catch (ScoreException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            method6(-5);
+//        } catch (ScoreException e) {
+//            e.printStackTrace();
+//        }s
     }
 
     /**
@@ -76,14 +77,10 @@ public class Test {
 
     // 编译时异常
     public static void method3(){
-        try{
-            SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD");
-            String str = "2045-04-08";
-            Date d = sdf.parse(str);
-            System.out.println(d);
-        }catch (ParseException e){
-            e.printStackTrace();
-        }
+//        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD");
+//        String str = "2045-04-08";
+//        Date d = sdf.parse(str);
+//        System.out.println(d);
     }
 
 
@@ -110,7 +107,6 @@ public class Test {
      */
     // ScoreException继承Exception 可以用throws抛出来；
     // 这是编译时异常，不做处理无法通过编译
-
     // 如果继承自runtimeException，则不一定要用throws抛出
     public static void method6(int score) throws ScoreException {
         if(score < 0 || score > 100){
