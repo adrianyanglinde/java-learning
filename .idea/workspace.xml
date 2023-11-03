@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Generics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericsFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericesInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericsImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/map_demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Dou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/variable_param_structure/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/generics_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/list_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/list_demo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection_demo/src/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/student/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +149,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/collection_demo/src/collections_demo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -157,15 +157,20 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/collection_demo/src/collections_demo" />
+      <recent name="$PROJECT_DIR$/collection_demo/src/variable_param_structure" />
       <recent name="$PROJECT_DIR$/collection_demo/src" />
       <recent name="$PROJECT_DIR$/array_demo/src/athlete_coach_demo" />
       <recent name="$PROJECT_DIR$/array_demo/src/interface_demo_catdog" />
-      <recent name="$PROJECT_DIR$/array_demo/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/collection_demo/src/generics_demo" />
@@ -182,7 +187,7 @@
       <recent name="class_interface_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (6)">
+  <component name="RunManager" selected="Application.collections_demo.Test">
     <configuration name="Test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list_demo.Test" />
       <module name="collection_demo" />
@@ -196,51 +201,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set_demo.Test" />
-      <module name="collection_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="set_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="throwable_demo.Test" />
-      <module name="array_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="throwable_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection_demo.Test" />
-      <module name="collection_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics_demo.Test" />
       <module name="collection_demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generics_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable_param_structure.data_structure.Test" />
+      <module name="collection_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variable_param_structure.data_structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,6 +253,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="collections_demo.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections_demo.Test" />
+      <module name="collection_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_demo.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map_demo.Test" />
+      <module name="collection_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="map_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="set_demo.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="set_demo.Test" />
       <module name="collection_demo" />
@@ -289,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.collections_demo.Test" />
+        <item itemvalue="Application.map_demo.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (6)" />
         <item itemvalue="Application.set_demo.Test" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +342,7 @@
       <workItem from="1693894428793" duration="651000" />
       <workItem from="1693905963830" duration="257000" />
       <workItem from="1698809166639" duration="2174000" />
-      <workItem from="1698817313865" duration="24510000" />
+      <workItem from="1698817313865" duration="49519000" />
     </task>
     <servers />
   </component>

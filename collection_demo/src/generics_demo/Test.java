@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class Test {
     public static void main(String[] args) {
-        genericsFn();
+        genericsInter();
 
     }
     public static void def() {
@@ -51,10 +51,10 @@ public class Test {
 //        s.setName("ttt");
 //        System.out.println(s.getName());
 
-        Generics t = new Generics<Integer>();
+        Generics<Integer> t = new Generics<Integer>();
         t.setT(10);
         System.out.println(t.getT());
-        Generics s = new Generics<String>();
+        Generics<String> s = new Generics<String>();
         s.setT("ttt");
         System.out.println(s.getT());
     }
@@ -68,5 +68,32 @@ public class Test {
         gf.show(20);
         gf.show(true);
         gf.show(12.33);
+    }
+
+    /**
+     * 16. 泛型接口
+     */
+    public static void genericsInter(){
+        GenericsImp<String> g1 = new GenericsImp<String>();
+        g1.show("ttt");
+        GenericsImp<Integer> g2 = new GenericsImp<Integer>();
+        g2.show(20);
+    }
+
+    /**
+     * 17. 类型通配符
+     */
+    public static void wildcard(){
+        List<?> list1 = new ArrayList<Object>();
+        List<?> list2 = new ArrayList<Number>();
+        List<?> list3 = new ArrayList<Integer>();
+
+        // List<? extends Number> list4 = new ArrayList<Object>();
+        List<? extends Number> list5 = new ArrayList<Number>();
+        List<? extends Number> list6 = new ArrayList<Integer>();
+
+        List<? super Number> list7 = new ArrayList<Object>();
+        List<? super Number> list8 = new ArrayList<Number>();
+        // List<? super Number> list9 = new ArrayList<Integer>();
     }
 }
