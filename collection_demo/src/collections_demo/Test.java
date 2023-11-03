@@ -1,6 +1,5 @@
 package collections_demo;
 
-import student.Student;
 import student.Student3;
 
 import java.util.*;
@@ -11,7 +10,7 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        exp();
+        exp3();
     }
     /**
      * 11.Collections概述和使用
@@ -58,7 +57,20 @@ public class Test {
      * 13.Collections 斗地主例子
      */
     public static void exp2() {
+        Dou dou = new Dou();
+        dou.shuffle();
+        dou.publish();
+        dou.showEvery();
+    }
 
+    /**
+     * 14.Collections 斗地主升级版（需求排序，所以牌要有序，要改数据结构）
+     */
+    public static void exp3() {
+        Dou2 dou = new Dou2();
+
+        dou.shuffle();
+        dou.publish();
 
     }
 

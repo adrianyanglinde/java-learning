@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericesInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericsImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/map_demo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Dou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/variable_param_structure/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Dou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Dou2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Dou.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +146,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/collection_demo/src/collections_demo",
+    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -180,11 +177,11 @@
       <recent name="$PROJECT_DIR$/collection_demo/src/index" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collections_demo" />
       <recent name="generics_demo" />
       <recent name="student" />
       <recent name="object_demo" />
       <recent name="athlete_coach_demo" />
-      <recent name="class_interface_demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.collections_demo.Test">
@@ -295,10 +292,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.collections_demo.Test" />
+        <item itemvalue="Application.set_demo.Test" />
         <item itemvalue="Application.map_demo.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (6)" />
-        <item itemvalue="Application.set_demo.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +339,7 @@
       <workItem from="1693894428793" duration="651000" />
       <workItem from="1693905963830" duration="257000" />
       <workItem from="1698809166639" duration="2174000" />
-      <workItem from="1698817313865" duration="49519000" />
+      <workItem from="1698817313865" duration="58810000" />
     </task>
     <servers />
   </component>

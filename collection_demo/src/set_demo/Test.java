@@ -22,8 +22,8 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        treeSetRandom();
-        hashSet();
+        treeSet();
+
     }
     public static void def() {
         HashSet<String> hs = new HashSet<String>();
