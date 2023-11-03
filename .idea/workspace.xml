@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/GenericsFn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_demo/out/array_demo/META-INF/array_demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_demo/src/throwable_demo/ScoreException.java" beforeDir="false" afterPath="$PROJECT_DIR$/array_demo/src/throwable_demo/ScoreException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_demo/src/throwable_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/array_demo/src/throwable_demo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/collection_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/collection_demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/generics_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/generics_demo/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection_demo/src/list_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/list_demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/student/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,16 +149,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/collection_demo/src" />
+      <recent name="$PROJECT_DIR$/array_demo/src/athlete_coach_demo" />
+      <recent name="$PROJECT_DIR$/array_demo/src/interface_demo_catdog" />
+      <recent name="$PROJECT_DIR$/array_demo/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/collection_demo/src/generics_demo" />
       <recent name="$PROJECT_DIR$/collection_demo/src/set_demo" />
@@ -164,21 +175,14 @@
       <recent name="$PROJECT_DIR$/collection_demo/src/index" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generics_demo" />
       <recent name="student" />
       <recent name="object_demo" />
       <recent name="athlete_coach_demo" />
       <recent name="class_interface_demo" />
-      <recent name="permi_modify_demo_b" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/collection_demo/src" />
-      <recent name="$PROJECT_DIR$/array_demo/src/athlete_coach_demo" />
-      <recent name="$PROJECT_DIR$/array_demo/src/interface_demo_catdog" />
-      <recent name="$PROJECT_DIR$/array_demo/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (6)">
     <configuration name="Test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list_demo.Test" />
       <module name="collection_demo" />
@@ -245,19 +249,6 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math_demo.Test" />
-      <module name="array_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="date_demo.Test" />
       <module name="array_demo" />
       <extension name="coverage">
@@ -283,13 +274,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="set_demo.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_demo.Test" />
+      <module name="collection_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (6)" />
+        <item itemvalue="Application.set_demo.Test" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (6)" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +337,7 @@
       <workItem from="1693894428793" duration="651000" />
       <workItem from="1693905963830" duration="257000" />
       <workItem from="1698809166639" duration="2174000" />
-      <workItem from="1698817313865" duration="6728000" />
+      <workItem from="1698817313865" duration="24510000" />
     </task>
     <servers />
   </component>

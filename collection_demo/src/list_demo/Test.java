@@ -15,7 +15,7 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        enhanceFor();
+        linkedList();
     }
     public static void list() {
         List<String> co = new ArrayList<String>();
