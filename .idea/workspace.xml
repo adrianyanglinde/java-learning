@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Dou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Dou2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/collections_demo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Dou.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/set_demo/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +138,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -184,13 +181,13 @@
       <recent name="athlete_coach_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.collections_demo.Test">
-    <configuration name="Test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list_demo.Test" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io_demo.Main" />
       <module name="collection_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list_demo.*" />
+          <option name="PATTERN" value="io_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics_demo.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list_demo.Test" />
       <module name="collection_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics_demo.*" />
+          <option name="PATTERN" value="list_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.collections_demo.Test" />
         <item itemvalue="Application.set_demo.Test" />
         <item itemvalue="Application.map_demo.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +336,8 @@
       <workItem from="1693894428793" duration="651000" />
       <workItem from="1693905963830" duration="257000" />
       <workItem from="1698809166639" duration="2174000" />
-      <workItem from="1698817313865" duration="58810000" />
+      <workItem from="1698817313865" duration="58835000" />
+      <workItem from="1699520265856" duration="3861000" />
     </task>
     <servers />
   </component>
