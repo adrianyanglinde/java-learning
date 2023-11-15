@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/io_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test3-copy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +149,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/io_demo/src/io_char_demo",
+    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -169,11 +168,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/io_demo/src/file_demo" />
       <recent name="$PROJECT_DIR$/io_demo/src/io_char_demo" />
       <recent name="$PROJECT_DIR$/collection_demo/src/io_demo" />
       <recent name="$PROJECT_DIR$/collection_demo/src/collections_demo" />
       <recent name="$PROJECT_DIR$/collection_demo/src/variable_param_structure" />
-      <recent name="$PROJECT_DIR$/collection_demo/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/collection_demo/src/generics_demo" />
@@ -190,7 +189,20 @@
       <recent name="athlete_coach_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io_char_demo.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="file_demo.Main" />
+      <module name="io_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="file_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="file_demo.Main" />
       <module name="collection_demo" />
@@ -223,19 +235,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="system_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="collections_demo.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections_demo.Test" />
-      <module name="collection_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.io_char_demo.Main" />
         <item itemvalue="Application.io_demo.Main" />
         <item itemvalue="Application.recursion_demo.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.collections_demo.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +334,7 @@
       <workItem from="1698817313865" duration="58835000" />
       <workItem from="1699520265856" duration="20147000" />
       <workItem from="1699869579202" duration="518000" />
-      <workItem from="1699924144920" duration="21853000" />
+      <workItem from="1699924144920" duration="41664000" />
     </task>
     <servers />
   </component>
