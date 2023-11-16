@@ -1,13 +1,12 @@
 package file_demo;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         try {
-            file_to_collect2();
+            collect_to_file_sort();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -99,4 +98,72 @@ public class Main {
             System.out.println();
         }
     }
+/**
+ * Day10
+ */
+    /**
+     * 01_集合到文件数据排序改进版
+     */
+    public static void collect_to_file_sort() throws IOException {
+        TreeSet<StudentStudy> treeSet = new TreeSet<>(new StudentStudyComparator());
+        for (int i = 0; i < 3; i++) {
+            Scanner scanner = new Scanner(System.in);
+            StudentStudy student = new StudentStudy();
+            System.out.println("请输入姓名");
+            student.setName(scanner.nextLine());
+            System.out.println("请输入语文成绩");
+            student.setChinese(scanner.nextInt());
+            System.out.println("请输入数学成绩");
+            student.setMath(scanner.nextInt());
+            System.out.println("请输入英语成绩");
+            student.setEnglish(scanner.nextInt());
+            treeSet.add(student);
+        }
+        BufferedWriter bw = new BufferedWriter(new FileWriter("/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo/test_study.txt"));
+        for(StudentStudy st:treeSet){
+            StringBuilder sb = new StringBuilder();
+            sb.append(st.getName());
+            sb.append(",");
+            sb.append(st.getChinese());
+            sb.append(",");
+            sb.append(st.getMath());
+            sb.append(",");
+            sb.append(st.getEnglish());
+            bw.write(sb.toString());
+            bw.newLine();
+        }
+        bw.close();
+    }
+
+    static class StudentStudyComparator implements Comparator<StudentStudy> {
+        @Override
+        public int compare(StudentStudy o1, StudentStudy o2) {
+            int total1 = o1.getEnglish() + o1.getChinese() + o1.getMath();
+            int total2 = o2.getEnglish() + o2.getChinese() + o2.getMath();
+            return Integer.compare(total1, total2);
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

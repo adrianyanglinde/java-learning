@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/student.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test3-copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/StudentStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io_demo/src/file_demo/test_study.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,11 +178,11 @@
       <recent name="$PROJECT_DIR$/collection_demo/src/index" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="file_demo" />
       <recent name="collections_demo" />
       <recent name="generics_demo" />
       <recent name="student" />
       <recent name="object_demo" />
-      <recent name="athlete_coach_demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
@@ -334,7 +330,7 @@
       <workItem from="1698817313865" duration="58835000" />
       <workItem from="1699520265856" duration="20147000" />
       <workItem from="1699869579202" duration="518000" />
-      <workItem from="1699924144920" duration="41664000" />
+      <workItem from="1699924144920" duration="52061000" />
     </task>
     <servers />
   </component>
