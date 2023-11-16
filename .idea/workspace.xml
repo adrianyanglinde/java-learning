@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,35 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="collection_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="collection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="collection_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -166,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1693905120540" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1700140984099" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -370,12 +340,12 @@
       <workItem from="1698755893796" duration="43000" />
       <workItem from="1698842406755" duration="296000" />
       <workItem from="1699363292259" duration="47000" />
-      <workItem from="1699363456227" duration="597000" />
+      <workItem from="1699363456227" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196464000" />
+    <option name="totallyTimeSpent" value="196674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -417,13 +387,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array_demo/src/StringBuilderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-913">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -738,6 +701,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/collection_demo/src/set_demo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
