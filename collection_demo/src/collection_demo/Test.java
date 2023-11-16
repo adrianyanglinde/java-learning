@@ -15,7 +15,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-//        common();
+        iterator();
 
     }
     /**
@@ -39,12 +39,11 @@ public class Test {
      * - Iterator<E>   iterator(): 返回此集合中的迭代器 ，依赖集合存在
      */
     public static void iterator() {
-        Collection<String> arr = new ArrayList<String>();
-        arr.add("hello");
-        arr.add("world");
-        arr.add("java");
-
-        Iterator<String> it = arr.iterator();
+        Collection<String> co = new ArrayList<>();
+        co.add("hello");
+        co.add("world");
+        co.add("java");
+        Iterator<String> it = co.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
         }
