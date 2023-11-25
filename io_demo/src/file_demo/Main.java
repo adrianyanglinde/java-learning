@@ -5,11 +5,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        try {
-            collect_to_file_sort();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            copy_file_deep();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+        copy_exp();
     }
     /**
      * 16_集合到文件
@@ -138,9 +139,87 @@ public class Main {
     static class StudentStudyComparator implements Comparator<StudentStudy> {
         @Override
         public int compare(StudentStudy o1, StudentStudy o2) {
-            int total1 = o1.getEnglish() + o1.getChinese() + o1.getMath();
-            int total2 = o2.getEnglish() + o2.getChinese() + o2.getMath();
-            return Integer.compare(total1, total2);
+            int flag_1 = o2.getSum() - o1.getSum();
+            int flag_2 = flag_1 == 0 ? o2.getMath() - o1.getMath() : flag_1;
+            int flag_3 = flag_2 == 0 ? o2.getEnglish() - o1.getEnglish() : flag_2;
+            int flag_4 = flag_3 == 0 ? o2.getName().compareTo(o1.getName()) : flag_3;
+            return flag_4;
+        }
+    }
+
+    /**
+     * 02_复制单级文件夹
+     */
+    public static void copy_file_from_folder() throws IOException {
+        File target = new File("/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo/temp_target");
+        File origin = new File("/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo/temp");
+        if(!(target.exists() && target.isDirectory())){
+            target.mkdir();
+        }
+        File[] fileList = origin.listFiles();
+        for(File originFile:fileList){
+            File targetFile = new File(target.getPath(),originFile.getName());
+//            if(!(targetFile.exists() && targetFile.isFile())){
+//                targetFile.createNewFile();
+//            }
+            copy(originFile,targetFile);
+        }
+    }
+    public static void copy(File originFile,File targetFile) throws IOException {
+        System.out.println(originFile.getPath());
+        System.out.println(targetFile.getPath());
+        BufferedInputStream bis = new BufferedInputStream(new FileInputStream(originFile));
+        BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(targetFile));
+        int by;
+        while ((by = bis.read()) != -1){
+            bos.write(by);
+        }
+        bos.close();
+        bis.close();
+    }
+
+    /**
+     * 03_复制多级文件夹
+     */
+    public static void copy_file_deep() throws IOException {
+        File originFile = new File("/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo/temp_2");
+        File targetFile = new File("/Users/yanglinde/Documents/project/java-learning/io_demo/src/file_demo/temp_2_target");
+        recur(originFile,targetFile);
+    }
+    public static void recur(File file,File dir) throws IOException {
+        String fileName = file.getName();
+        if(file.isFile()){
+            File copyFile = new File(dir,fileName);
+            copy(file,copyFile);
+            return;
+        }
+        if(file.isDirectory()){
+            File copyDir = new File(dir,fileName);
+            if(!copyDir.exists()){
+                copyDir.mkdir();
+            }
+            File[] files = file.listFiles();
+            if(files != null){
+                for(File _file : files){
+                    recur(_file,copyDir);
+                }
+            }
+        }
+    }
+
+    /**
+     * 04_复制文件的异常处理
+     */
+    public static void copy_exp() {
+        try (FileReader fr = new FileReader("/Users/yanglinde/Documents/project/java-learning/io_demo/src/io_char_demo/test2.txt");
+             FileWriter fw = new FileWriter("/Users/yanglinde/Documents/project/java-learning/io_demo/src/io_char_demo/test2-copy.txt")){
+            char[] chs = new char[1024];
+            int len;
+            while ((len = fr.read(chs)) != -1){
+                fw.write(chs,0,len);
+            }
+        }catch (IOException e){
+            e.printStackTrace();
         }
     }
 }

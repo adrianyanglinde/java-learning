@@ -1,1 +1,3 @@
-yanglinde,10,10,10hongdanping,20,20,20gengxinxin,30,30,30
+yanglinde,70,80,90
+hongdanping,80,80,80
+gengxinxin,10,10,10

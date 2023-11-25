@@ -30,6 +30,10 @@ public class StudentStudy {
         return english;
     }
 
+    public int getSum(){
+        return this.chinese + this.math + this.english;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
