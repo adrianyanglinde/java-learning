@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/network_demo/src/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo2/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo3/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo3/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/test_client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/test_client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/udp_demo/Reciever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network_demo/src/udp_demo/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Boxer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Milker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThreadName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThreadSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketSyncFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_demo/thread_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,31 +135,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo7" />
@@ -354,7 +310,7 @@
       <workItem from="1701760014890" duration="23192000" />
       <workItem from="1701942745763" duration="23751000" />
       <workItem from="1702259279898" duration="3031000" />
-      <workItem from="1724809766840" duration="9302000" />
+      <workItem from="1724809766840" duration="9936000" />
     </task>
     <servers />
   </component>
