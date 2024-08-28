@@ -5,20 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac6b079d-7cb1-4c68-bcb4-1f079e469c00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_spec_demo/Mian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_spec_demo/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/io_spec_demo/test_copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/properties_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/properties_demo/game.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/properties_demo/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/serialize_demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/serialize_demo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/io_demo/src/serialize_demo/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo3/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo4/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo5/test_client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo6/test_client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/tcp_demo7/client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/udp_demo/Reciever.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_demo/src/udp_demo/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Boxer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/milk_demo/Milker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThreadName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/MyThreadSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/src/thread_demo/SellTicketSyncFn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_demo/thread_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/file_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/file_demo/StudentStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/file_demo/StudentStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/file_demo/test_study.txt" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/file_demo/test_study.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/test2-copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test2-copy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/out/collection_demo/io_demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection_demo/src/io_demo/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io_demo/src/io_char_demo/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/io_demo/src/io_char_demo/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,38 +179,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/yanglinde/Documents/project/java-learning/io_demo/src/properties_demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/io_demo/src/properties_demo" />
-      <recent name="$PROJECT_DIR$/io_demo/src/io_spec_demo" />
-      <recent name="$PROJECT_DIR$/io_demo/src/file_demo" />
-      <recent name="$PROJECT_DIR$/io_demo/src/io_char_demo" />
-      <recent name="$PROJECT_DIR$/collection_demo/src/io_demo" />
+      <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo7" />
+      <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo6" />
+      <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo5" />
+      <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo4" />
+      <recent name="$PROJECT_DIR$/network_demo/src/tcp_demo3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/collection_demo/src/generics_demo" />
@@ -189,20 +220,20 @@
       <recent name="$PROJECT_DIR$/collection_demo/src/index" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="serialize_demo" />
-      <recent name="file_demo" />
-      <recent name="collections_demo" />
-      <recent name="generics_demo" />
-      <recent name="student" />
+      <recent name="tcp_demo7" />
+      <recent name="tcp_demo" />
+      <recent name="udp_demo" />
+      <recent name="milk_demo" />
+      <recent name="thread_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.properties_demo.Main">
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file_demo.Main" />
-      <module name="io_demo" />
+  <component name="RunManager" selected="Application.milk_demo.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp_demo7.Client" />
+      <module name="network_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file_demo.*" />
+          <option name="PATTERN" value="tcp_demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +242,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file_demo.Main" />
-      <module name="io_demo" />
+      <option name="MAIN_CLASS_NAME" value="test_demo.Main" />
+      <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file_demo.*" />
+          <option name="PATTERN" value="test_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io_spec_demo.Mian" />
-      <module name="io_demo" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp_demo7.Server" />
+      <module name="network_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io_spec_demo.*" />
+          <option name="PATTERN" value="tcp_demo7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list_demo.Test" />
-      <module name="collection_demo" />
+    <configuration name="milk_demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="milk_demo.Main" />
+      <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list_demo.*" />
+          <option name="PATTERN" value="milk_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,25 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="properties_demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="properties_demo.Main" />
-      <module name="io_demo" />
+    <configuration name="thread_demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread_demo.Main" />
+      <module name="thread_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="properties_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="serialize_demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialize_demo.Main" />
-      <module name="io_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="serialize_demo.*" />
+          <option name="PATTERN" value="thread_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.properties_demo.Main" />
-        <item itemvalue="Application.serialize_demo.Main" />
-        <item itemvalue="Application.Mian" />
+        <item itemvalue="Application.milk_demo.Main" />
+        <item itemvalue="Application.thread_demo.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -332,6 +350,11 @@
       <workItem from="1700446550901" duration="6950000" />
       <workItem from="1700835770964" duration="2808000" />
       <workItem from="1700913425999" duration="5142000" />
+      <workItem from="1701244269277" duration="19691000" />
+      <workItem from="1701760014890" duration="23192000" />
+      <workItem from="1701942745763" duration="23751000" />
+      <workItem from="1702259279898" duration="3031000" />
+      <workItem from="1724809766840" duration="9302000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         try{
-            copyVideo();
+            output2();
         }catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -37,8 +37,8 @@ public class Main {
         FileOutputStream fos = new FileOutputStream("/Users/yanglinde/Documents/project/java-learning/collection_demo/src/io_demo/test.txt");
 //        byte[] arr = {97,98,99,100};
 //        fos.write(arr);
-        fos.write("abcde".getBytes());
-        fos.write("abcde".getBytes(),1,3);
+        fos.write("洪丹萍".getBytes());
+        // fos.write("abcde".getBytes(),1,3);
         fos.close();
     }
 
