@@ -9,7 +9,7 @@ public class Server {
         ServerSocket serverSocket = new ServerSocket(10204);
         Socket accept = serverSocket.accept();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(accept.getInputStream()));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo5/test.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/network_demo/src/tcp_demo5/test.txt"));
         String str;
         while ((str = bufferedReader.readLine())!=null){
             bufferedWriter.write(str);
