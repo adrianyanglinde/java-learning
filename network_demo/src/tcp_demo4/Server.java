@@ -9,12 +9,14 @@ public class Server {
         ServerSocket serverSocket = new ServerSocket(10204);
         Socket accept = serverSocket.accept();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(accept.getInputStream()));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo4/test.txt"));
+        // 包装成 字符缓冲输出流
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/network_demo/src/tcp_demo4/test.txt"));
         String str;
         while ((str = bufferedReader.readLine())!=null){
             if(str.equals("886")){
                 break;
             }
+            System.out.println("server received: "+str);
             bufferedWriter.write(str);
             bufferedWriter.newLine();
             bufferedWriter.flush();
