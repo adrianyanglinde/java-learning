@@ -6,10 +6,10 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(10204);
+        ServerSocket serverSocket = new ServerSocket(10205);
         Socket accept = serverSocket.accept();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(accept.getInputStream()));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo6/test.txt"));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getProperty("user.dir") + "/network_demo/src/tcp_demo6/test.txt"));
         String str;
         while ((str = bufferedReader.readLine())!=null){
             bufferedWriter.write(str);
@@ -24,5 +24,6 @@ public class Server {
 
         bufferedWriter.close();
         serverSocket.close();
+
     }
 }

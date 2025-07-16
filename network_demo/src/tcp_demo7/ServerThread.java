@@ -18,10 +18,10 @@ public class ServerThread implements Runnable {
             // 流数据写入日志
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
             int index = 0;
-            File file = new File("/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo7/server_log_" + index + ".txt");
+            File file = new File(System.getProperty("user.dir") + "/network_demo/src/tcp_demo7/server_log_" + index + ".txt");
             while (file.exists()){
                 index++;
-                file = new File("/Users/yanglinde/Documents/project/java-learning/network_demo/src/tcp_demo7/server_log_" + index + ".txt");
+                file = new File(System.getProperty("user.dir") + "/network_demo/src/tcp_demo7/server_log_" + index + ".txt");
             }
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
             String str;
