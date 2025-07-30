@@ -24,6 +24,7 @@ public class Main {
         usePrint(new Print() {
             @Override
             public void printUpperCase(String s) {
+                // lambda 被对象实例方法替代，它的形参全部传递给该方法作为参数
                 ps.printUpperCaseString(s);  // 委托调用
             }
         });
