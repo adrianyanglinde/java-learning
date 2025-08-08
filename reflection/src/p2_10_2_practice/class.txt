@@ -1,2 +1,2 @@
-className=Student
-methodName=study
+className=p2_10_2_practice.Teacher
+methodName=teach
